@@ -1,0 +1,47 @@
+.nav-bar{
+    height:65px;
+    padding: 15px 20px 15px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+}
+
+.nav-bar ul {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-bar .right{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.right>a:nth-child(2){
+    font-size: 1.6em;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    font-size: x-large;
+    transition: .1s ease-in;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
